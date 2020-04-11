@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#eee;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* hr{
+    width: 784;
+}  HOW DO I MAKE A LINKE ACROSS THE CONATINER ??*/
+
+.container{
+    background-color: white;
+    width: 1024px;
+    margin: 20px auto;
+    padding: 20px 80px;
+}
+
+form{
+    /* float: left; */
+    margin: 40px;
+    padding: 10px;
+    text-align: left;
+}
+
+.col-md-6{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 780px){
+.container{
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.col-md-9{
+    float: left;
+    margin-top: 20px;
+}
+
+
+
+}
+
+/* not sure the stuff below is working */
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+        padding: 20px 40px;
+    }
+    
+    .col-md-9{
+        float: left;
+        margin-top: 20px;
+    }
+    
+    }
