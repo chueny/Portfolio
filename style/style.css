@@ -9,21 +9,14 @@ body{
     line-height: 27px;
 }
 
-/* hr{
-    width: 784;
-}  HOW DO I MAKE A LINKE ACROSS THE CONATINER ??*/
-
 .container{
     background-color: white;
     width: 1024px;
     margin: 20px auto;
     padding: 20px 80px;
-}
+   }
 
 form{
-    /* float: left; */
-    margin: 40px;
-    padding: 10px;
     text-align: left;
 }
 
@@ -41,12 +34,7 @@ form{
     float: left;
     margin-top: 20px;
 }
-
-
-
 }
-
-/* not sure the stuff below is working */
 
 @media screen and (max-width: 480px){
     .container{
