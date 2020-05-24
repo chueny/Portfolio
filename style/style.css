@@ -24,7 +24,19 @@ form{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 780px){
+img{
+   max-width: 100%;
+   height: auto; 
+   margin-top: 5px;
+}
+
+button{
+border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 1200px){
 .container{
     width: 100%;
     padding: 20px 40px;
@@ -48,4 +60,4 @@ form{
         margin-top: 20px;
     }
     
-    }
+}
