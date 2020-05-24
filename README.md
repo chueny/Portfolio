@@ -9,7 +9,7 @@ See portfolio here: https://chueny.github.io/Portfolio/
 
 ## Screen shots of the portfolio
 
-![Screen Shot 2020-05-23 at 10 04 29 PM](https://user-images.githubusercontent.com/17972802/82744690-8a7b6880-9d41-11ea-982a-82c49b08547f.png)
+![Screen Shot 2020-05-23 at 10 27 59 PM](https://user-images.githubusercontent.com/17972802/82744951-afbda600-9d44-11ea-828a-c87e1f373342.png)
 
 ![Screen Shot 2020-05-23 at 10 04 00 PM](https://user-images.githubusercontent.com/17972802/82744692-9535fd80-9d41-11ea-8726-2f7076b75d2b.png)
 
