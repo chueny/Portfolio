@@ -11,9 +11,9 @@ See portfolio here: https://chueny.github.io/Portfolio/
 
 ![Screen Shot 2020-05-23 at 10 27 59 PM](https://user-images.githubusercontent.com/17972802/82744951-afbda600-9d44-11ea-828a-c87e1f373342.png)
 
-![Screen Shot 2020-05-23 at 10 04 00 PM](https://user-images.githubusercontent.com/17972802/82744692-9535fd80-9d41-11ea-8726-2f7076b75d2b.png)
+![Screen Shot 2020-07-19 at 3 03 32 PM](https://user-images.githubusercontent.com/17972802/87884042-196ad100-c9d1-11ea-8976-14acd67e25ce.png)
 
-![Screen Shot 2020-05-23 at 10 04 17 PM](https://user-images.githubusercontent.com/17972802/82744695-9cf5a200-9d41-11ea-977d-f9bef63e299e.png)
+![Screen Shot 2020-07-19 at 3 03 40 PM](https://user-images.githubusercontent.com/17972802/87884041-17a10d80-c9d1-11ea-9161-d7da12d1df6b.png)
 
 
 ## Contributors
