@@ -6,6 +6,11 @@
         <title>Chue Yang Portfolio</title>
         <link rel="stylesheet" href="style/reset.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -22,28 +27,34 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ">
-                <a class="nav-link" href="index.html">About Me</a> 
+                <a class="nav-link" href="#about">About</a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             </div>
           
           </nav>
 
-        <section class="section home">
-                <img src="images/chue.jpg" alt="Picture of Chue" style="width:207.5px; height:220px;">
+        <section class="section" id="home">
+                <img class="chue-pic" src="images/chue.jpg" alt="Picture of Chue" style="width:285px; height:auto;">
                 <h4 class="section-heading"> CHUE YANG</h4>
-                <h5> Engineer • Maker • Alphine Skiier </h5>
+                <h5> Software Engineer • Alpine Skiier • Maker </h5>
                <!-- <p><stron><a href="images/Resume_YangC_updatedMay2020.pdf">Click for resume</a></stron></p> -->
         </section> 
-        <section class ="section about">
+        <section class ="section" id="about">
           <h4 class="section-heading"> ABOUT ME </h4>
-          <p>
+          <p class="aboutme">
             My favorite experiences at work has been in a makerspace, 
             learning and playing with new rapid prototyping technologies
             (3D printing, laser cutting, physical computing, AR/VR, 
@@ -51,40 +62,106 @@
             to the makerspace, I tinkered around with the machines and tried to learn how they work. Now I am having a lot of fun learning how the software side of technology works. 
           </p>
         </section>
-        <section class ="section skills">
+        <section class ="section" id="skills">
           <h4 class="section-heading"> TECHNICAL SKILLS </h4>
+          <h5>Python •  Flask • Jinja</h5>
+          <h5>JavaScript •  Node • Express • React</h5>
+          <h5>Git • SQL • PostgresSQL • MongoDB</h5>
+          <!-- TO UPDATE LATER!      
+          <div id="skills-slide">  
+          <div class="skill">
+            <span> <img class="logo" src="images/github-cat.png" /> </span>
+            <h4>GITHUB</h4>
+          </div>
+          <div class="skill">
+            <span> <img class="logo" src="images/javascript.png" /> </span>
+            <h4>JAVASCRIPT</h4>
+          </div>
+          <div class="skill">
+            <span> <img class="logo" src="images/sql.png" /> </span>
+            <h4>SQL</h4>
+          </div>
+          <div class="skill">
+            <span> <img src="images/react.png" /> </span>
+            <h4>REACT</h4>
+          </div>
+
+          <div class="skill">
+            <span> <img class="logo" src="images/python3.png"/> </span>
+            <h4>PYTHON</h4>
+          </div> -->
+        </div>
         </section>
-        <section class ="section portfolio">
+        <section class ="section" id="experience">
           <h4 class="section-heading"> EXPERIENCE </h4>
+          <div class="timeline-container">
+            <div class = "timeline">
+              <ul>
+                <li>
+                  <div class="timeline-content">
+                    <h4 class="date">Sept. 2022 - Dec. 2022</h4>
+                    <h3>Hackbright Academy </h3>
+                    <p>Software Engineering (Student)</p>
+                    <p>Completed an entensive fullstack coding bootcamp!</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h4 class="date">Jul. 2019 - Jun. 2020</h4>
+                    <h3>Blackbaud</h3>
+                    <p>Office Manager</p>
+                    <p>For a software engineering company, managed all aspects of the facility operations, project management, space planning, and finance for the local office. </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h4 class="date">Dec 2015 - Mar. 2019</h4>
+                    <h3>University of Washington</h3>
+                    <p>Manager of CoMotion MakerSpace</p>
+                    <p>Responsible for strategic development, building operation, human resources, project management, marketing, procurement, finance, social media, and day-to-day operations of a prototyping facility. 
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h4 class="date">Nov. 2012 - Jan 2014</h4>
+                    <h3>University of Minnesota</h3>
+                    <p>Administrative Specialist</p>
+                    <p>Supported renovation project and multiple clinic grant initiatives and audits. </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
-        <section class ="section portfolio">
+        <section class ="section" id = "portfolio">
           <h4 class="section-heading"> PORTFOLIO </h4>
           <div class = "row">
             <div class = "col-sm-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="images/GravelBikeRaces.png" class="card-img" alt="pins on google map">
             </div>
             <div class = "col-sm-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="https://user-images.githubusercontent.com/17972802/93668670-9955fb80-fa53-11ea-9c57-03c891adc705.png" class="card-img" alt="recipes ">
             </div>
             <div class = "col-sm-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="images/Employee System.png" class="card-img" alt="...">
             </div>
           </div>
 
           <div class = "row">
-            <div class = "col-sm-4">
-              <img src="..." class="card-img" alt="...">
+            <div class = "col-sm-4 port-width">
+              <img src="images/WeatherAPI.png" class="card-img" alt="picture of weather api">
             </div>
             <div class = "col-sm-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="images/teamGenerator.png" class="card-img" alt="...">
             </div>
             <div class = "col-sm-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="images/NoteTaker.png" class="card-img" alt="photo of a note taker app">
             </div>
           </div>
 
         </section>
-        <section class ="section contact">
+        <section class ="section" id="contact">
           <h4 class="section-heading"> CONTACT ME </h4>
         </section>
     </body>
