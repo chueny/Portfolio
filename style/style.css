@@ -67,7 +67,7 @@ p {
     color: #063940;
 }
 
-.aboutme {
+.p-container {
     width: 500px;
     text-align: center;
     margin: auto;
@@ -78,8 +78,18 @@ p {
     text-align: center;
     margin: auto;
 } */
+#footer{
+    clear: both;
+    background-color: #363b3f;
+    /* background-color: rebeccapurple; */
+    color: white;
+}
 
-
+#footer ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
 form{
     text-align: left;
 }
@@ -182,6 +192,12 @@ border-radius: 5px;
     color: #063940;
     
 }
+
+.port-container {
+    margin: auto;
+        /* padding-left: 15px;
+        padding-right: 15px; */
+}
 @media only screen and (min-width: 768px){
     .timeline::before{
         content: "";
@@ -238,6 +254,17 @@ border-radius: 5px;
         padding-left: 20px;
     }
 
+    .port-container {
+        width: 750px;
+        
+    }
+}
+
+@media screen and (min-width: 992px){
+    .port-container{
+        width: 970px;
+        
+    }
 }
 
 @media screen and (max-width: 1200px){
