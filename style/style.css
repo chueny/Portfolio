@@ -39,6 +39,7 @@ text-align: center;
     margin-inline-start: 0px;
 }
 
+
 p {
     font-size: 16px;
     font-family: "Lato", sans-serif;
@@ -59,6 +60,7 @@ p {
 #home, #skills, #portfolio {
     background-color: rgb(145, 191, 194);
     color: rgb(12, 50, 56);
+    padding-bottom: 25px;
 }
 
 .section-heading {
@@ -67,8 +69,23 @@ p {
     color: #063940;
 }
 
+.skills-icon {
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    vertical-align: center;
+    height: 40px;
+    padding-top: 10px;
+    margin-top:10px;
+    margin-right: 10px;
+
+    width: 36%;
+}
+
+
 .p-container {
-    width: 500px;
+    width: 550px;
     text-align: center;
     margin: auto;
 }
@@ -78,6 +95,7 @@ p {
     text-align: center;
     margin: auto;
 } */
+
 #footer{
     clear: both;
     background-color: #363b3f;
@@ -87,8 +105,12 @@ p {
 
 #footer ul {
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
+}
+.footer-img {
+    padding-left: 10px;
 }
 form{
     text-align: left;
@@ -132,16 +154,33 @@ border-radius: 5px;
     padding:30px;
 }
 
-/* .main-container::after{
-    content: '';
-    position: absolute;
-    width: 10px;
-    background-color: #063940;
-    top:0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-} */
+.row-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* height: 20px; */
+
+    
+}
+
+.section {
+    scroll-margin-top: 2em;
+}
+.section-heading{
+    margin-bottom: 15px;
+    
+}
+.email, .phone {
+    color: rgb(12, 50, 56);
+
+}
+
+.contact-icon {
+    color: rgb(21, 112, 127)
+}
+
 
 .timeline {
     width: 80%;
@@ -291,4 +330,10 @@ border-radius: 5px;
         margin-top: 20px;
     }
     
+    .skills-icon {
+        padding-left: 30px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
 }
