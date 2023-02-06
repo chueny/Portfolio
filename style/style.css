@@ -93,6 +93,9 @@ p {
 }
 
 @media screen and (max-width: 480px){
+    #home h5 {
+        font-size: 1 rem;
+    }
     .p-container {
         text-align: center;
         padding-left: 5%;
@@ -104,6 +107,10 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .skills-div img{
+        max-width: 50%;
     }
 
 }
