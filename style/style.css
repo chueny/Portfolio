@@ -92,6 +92,22 @@ p {
     padding-right: 25%;
 }
 
+@media screen and (max-width: 480px){
+    .p-container {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .timeline-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 /* .port-width {
     width: 500px;
     text-align: center;
@@ -159,13 +175,10 @@ border-radius: 5px;
     padding:30px;
 }
 
-.row-skills {
+.skills-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 10px;
-    margin-left: 10px;
-    /* height: 20px; */
 
     
 }
