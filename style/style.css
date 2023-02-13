@@ -114,6 +114,21 @@ p {
 
 }
 
+@media screen and (min-width: 491px){
+    .p-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .p-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
+
 
 #footer{
     clear: both;
@@ -320,10 +335,7 @@ Timeline
         
     }
 
-    .p-container {
-        padding-left: 30%;
-        padding-right: 30%;
-    }
+   
     
 }
 
